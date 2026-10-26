@@ -17,7 +17,7 @@ on:
         default: patch
 
 env:
-  NODE_VERSION: "22.22.0"
+  NODE_VERSION: "22.23.4"
   ARTIFACTORY_HOSTNAME: ${{'{'}}{ vars.ARTIFACTORY_HOSTNAME }}
   ARTIFACTORY_TOKEN: ${{'{'}}{ secrets.ARTIFACTORY_TOKEN }}
   IMAGE_NAME: {{ prefix-name }}-{{ suffix-name }}

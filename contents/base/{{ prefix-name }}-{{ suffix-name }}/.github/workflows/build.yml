@@ -16,7 +16,7 @@ permissions:
 name: Build
 
 env:
-  NODE_VERSION: "22.22.0"
+  NODE_VERSION: "22.23.4"
   DOCKER_REGISTRY: ${{'{'}}{ vars.ARTIFACTORY_HOSTNAME }}
   DOCKER_REPOSITORY: ${{'{'}}{ vars.ARTIFACTORY_PROJECT }}-docker-local/applications
   IMAGE_NAME: {{ prefix-name }}-{{ suffix-name }}
